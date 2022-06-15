@@ -1,0 +1,16 @@
+.Logo {
+    display: grid;
+    background-color: rgb(33, 177, 187);
+    justify-content: center;
+
+}
+
+body {
+    background-color: aquamarine;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+
+.SiQuiero {
+    border-radius: 15px;
+}
