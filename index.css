@@ -1,16 +1,20 @@
 .Logo {
     display: grid;
-    background-color: rgb(33, 177, 187);
+    background-color: #EEEEEE;
     justify-content: center;
 
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #EEEEEE;
     margin-left: 3cm;
     margin-right: 3cm;
 }
 
+.Titulo {
+    font-family: Arial, Helvetica, sans-serif
+
+}
 .SiQuiero {
     border-radius: 15px;
 }
