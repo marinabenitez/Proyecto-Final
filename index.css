@@ -7,8 +7,8 @@
 
 body {
     background-color: black;
-    margin-left: 3cm;
-    margin-right: 3cm;
+    margin-left: 1cm;
+    margin-right: 2cm;
 }
 
 .Intro{
@@ -17,6 +17,17 @@ body {
     text-align: center;
 }
 
+
+.principal {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+text-align: center;
+
+/
+
+}
 .Servicios{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -34,7 +45,7 @@ body section {
     align-items: center;
     justify-content: center;
     background-image: url(img/marina\ 1.jpg);
-    height: 60rem;
+    height: 35rem;
     background-repeat: no-repeat;
     background-size: cover; /*para que cubra todo la imagen*/
     background-position: center center;
