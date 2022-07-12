@@ -11,7 +11,7 @@ body {
     margin-right: 2cm;
 }
 
-.Intro{
+.Intro {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
@@ -19,16 +19,10 @@ body {
 
 
 .principal {
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translateX(-50%) translateY(-50%);
-text-align: center;
-
-/
 
 }
-.Servicios{
+
+.Servicios {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -47,63 +41,84 @@ body section {
     background-image: url(img/marina\ 1.jpg);
     height: 35rem;
     background-repeat: no-repeat;
-    background-size: cover; /*para que cubra todo la imagen*/
+    background-size: cover;
+    /*para que cubra todo la imagen*/
     background-position: center center;
 
 }
 
-    .boton--principal {
-	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#6b6b6b;
-	font-family:Arial;
-	font-size:17px;
-	padding:7px 25px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
-    }
+.boton--principal {
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+
+.barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li.lista-servicios {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4d4d4d;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.titulocontacto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.boton--formulario {
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
    
-
-   .barra {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-
-    li.lista-servicios {
-        float: left;
-        text-decoration: none;
-        list-style-type: none; 
+    cursor: pointer;
+    color: #6b6b6b;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
     }
     
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+    .Formulario {
+        display:grid  ;
+        justify-content: center ;
     }
-    .active {
-        background-color: #4d4d4d;
-      }
-    
-    li a:hover {
-        background-color: #111;
-    } 
 
-
-
-
-    
-    
-
-
-
+  
