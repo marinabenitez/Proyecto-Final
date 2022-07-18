@@ -19,6 +19,13 @@ body {
 }
 
 
+
+.Titulogaleria {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .Servicios {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -235,22 +242,22 @@ img {
 
 .row {
     display: flex;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 .columna {
-    flex: 25%;
-    padding: 5px;
+    flex:15%;
+    padding: 10px;
     
 }
 
 .columna img {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .columna {
-        flex: 50%;
+        flex: 25%;
     }
 
 }
@@ -259,7 +266,7 @@ img {
 
 @media (max-width: 600px) {
     .columna {
-        flex: 100%;
+        flex: 80%;
     }
 
 }
