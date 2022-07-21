@@ -296,3 +296,13 @@ img {
     animation-duration: 2s; /* don't forget to set a duration! */
     animation-iteration-count: infinite;
   }
+
+
+
+  .Ubicacion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+  }
+
+  .Mapa {}
